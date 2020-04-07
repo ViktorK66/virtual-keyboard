@@ -1,0 +1,73 @@
+.main {
+  display: block;
+  position: relative;
+  width: 36cm;
+  margin: 0 auto;
+  background-color: #f0ffff;
+  margin-top: -20px;
+  height: 850px;
+}
+
+.textarea {
+  display: block;
+  position: relative;
+  width: 30.4cm;
+  height: 8.5cm;
+  box-sizing: border-box;
+  margin: 0px 2.8cm;
+  top: 20px;
+  resize: none;
+}
+
+.keyboard {
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  width: 32cm;
+  height: 10.34cm;
+  background-color: #f0ffff;
+  margin: 0 2cm;
+}
+
+.message { 
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 750px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  text-align: center;
+}
+
+.keys {
+  display: inline-block;
+  position: relative;
+  height: 2cm;
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: center;
+  margin: 1.3px;
+  font-size: 22px;
+  line-height: 2cm;
+  background-color: #808080;
+}
+
+.control_key {
+  background-color: #000000;
+}
+
+.key_in {
+  display: inline-block;
+  position: absolute;
+  top: -0.7cm;
+  left: 0.15cm;
+}
+
+.active {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
